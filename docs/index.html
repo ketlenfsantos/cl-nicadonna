@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+
+  </head>
+  <body class="m-0 p-0 bg-[rgba(106,54,122,1)]" data-anime="200">
+    <!-- HEADER -->
+    <div class="bg-[url('/img/mobile.png')] bg-cover bg-center h-screen md:bg-[url('/img/banner.png')] md:h-screen md:bg-cover md:bg-center xl:bg-[url('/img/banner.png')] xl:bg-cover xl:h-screen animate-fade-in-down" data-anime="200">
+      <header class="bg-[rgba(90,15,110,0.2)] w-full h-72 p-8 pt-5 flex flex-col justify-center align-middle
+      md:flex-row md:justify-center md:content-center md:items-center md:gap-96 md:h-20 md:p-4 xl:h-28 
+      xl:gap-[40rem]" >
+        <a href="#" class="items-center m-auto p-8 md:m-0">
+          <img
+            class="w-40 md:justify-center md:w-40"
+            src="/img/2.png"
+            alt="donna"
+          />
+        </a>
+        <nav class="flex flex-col  md:justify-center">
+          <ul class="text-white flex flex-wrap flex-col justify-center content-center items-center gap-2 md:flex-row md:justify-center md:gap-8 md:text-sm  ">
+            <li>
+              <a
+                class="hover:text-roxo-200 transition duration-300 scale-100 hover:scale-110"
+                href=""
+              >
+                Início
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-roxo-200 transition duration-300 scale-100 hover:scale-110"
+                href=""
+              >
+                Sobre nós
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-roxo-200 transition duration-300 scale-100 hover:scale-110"
+                href=""
+              >
+                Serviços
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-roxo-200 transition duration-300 scale-100 hover:scale-110"
+                href=""
+              >
+                Contato
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class=" mt-[12rem] w-80 ml-12 md:mt-32 md:w-[40rem] xl:mt-[12rem]">
+        <div class="animate-fade-in-left" data-anime="100">
+          <h1 class="text-white text-2xl">
+            Conquiste seus resultados aqui, na Estética Donna
+          </h1>
+          <h2 class="text-white text-xl mt-1 lg:text-xl  font-light font-glacial">
+            Transformarmos suas expectativas em realidade !
+          </h2>
+
+          <button class="text-white mt-3 border p-3 w-60 bg-dourado-900 font-glacial font-bold border-none rounded-md hover:bg-yellow-500   shadow-[0px_10px_50px_rgba(149,95,149,1)]" >
+            Conheça nosso espaço
+          </button>
+        </div>
+      </main>
+    </div>
+  </div>
+
+    <section class="h-full p-9 w-full gap-20 lg:mb-10 bg-[rgba(106,54,122,1)] xl:hidden md:hidden">
+      <div class=" mt-10 mb-5 flex flex-col  text-center items-center m-auto">
+        <h1 class="text-white text-2xl font-sans lg:text-4xl lg:mb-2">Nossos tratamentos</h1>
+        <h2 class="text-white text-xs font-glacial lg:text-xl">
+          Referência em resultados na Cidade de Cachoeirinha e Região
+        </h2>
+      </div>
+    
+      <div class="p-8  bg-fuchsia-100 rounded-xl w-full h-60 mb-5 ">
+        <h1 class="text-roxo-500 text-3xl mb-1 font-glacial">Amplo Espaço</h1>
+        <p class="mt-3 font-glacial text-xs">
+          Aqui você conta com um espaço climatizado, amplo e aconchegante preparado especialmente para você. Diversos serviços de estética e beleza em um lugar só. Nossas profissionais preparadas para te proporcionar o melhor atendimento, e aquele café especial que nossas clientes merecem. Aqui você é especial para nós!
+        </p>
+      </div>
+      
+    
+      <div class="p-8 bg-purple-400 rounded-xl h-60 w-full bg-[url('/img/clínica.jpg')] bg-cover bg-center mb-5 "></div>
+      <div class="p-8 bg-purple-400 rounded-xl h-60 bg-[url('/img/recep.jpg')] bg-cover bg-center mb-5"></div>
+      
+
+
+      <div class="p-8  bg-fuchsia-100 rounded-xl w-full h-60 mb-5">
+        <h1 class="text-roxo-500 text-3xl mb-1 font-glacial">Salas Privativas</h1>
+        <p class="mt-3 text-xs font-glacial">
+         Nossas salas são preparadas  para que você viva um momento relaxante e especial. Proporcionamos mais que um atendimento, mas também uma experiência completa. Aqui você realiza seu atendimento com iluminação personalizada, alexa para escutar a música de sua preferência, e além disso, cada sala conta com um banheiro privativo. 
+        </p>
+      </div>
+
+      <div class="p-8 bg-purple-400 rounded-xl h-60 w-full max-w-screen-lg bg-[url('/img/alex.jpg')] bg-cover bg-center mb-5 "></div>
+      <div class="p-8 bg-purple-400 rounded-xl h-60 w-full max-w-screen-lg bg-[url('/img/banheiro.jpg')] bg-cover bg-center mb-5"></div>
+
+    
+    
+
+    </section>
+
+    <section class="h-full p-9 w-full gap-20 lg:mb-10 bg-[rgba(106,54,122,1)] mb-10 hidden  md:block xl:block"> 
+      <div class=" mt-10 mb-5 flex flex-col  text-center items-center m-auto">
+        <h1 class="text-white text-xl font-sans lg:text-4xl lg:mb-2">Somos a Clínica Donna</h1>
+        <h2 class="text-white text-sm font-glacial lg:text-xl">
+          Referência em resultados na Cidade de Cachoeirinha e Região
+        </h2>
+      </div>
+
+      <div class="xl:grid grid-cols-2 md:grid md:grid-cols-2 mt-10">
+        <div class="p-8  bg-fuchsia-100 rounded-xl w-[40rem] h-60 mb-5 xl:w-[40rem]  md:w-[30rem] animate-fade-in-left" data-anime="400">
+          <h1 class="text-roxo-500 text-3xl mb-1 font-glacial">Amplo Espaço</h1>
+          <p class="mt-3 font-glacial text-xs">
+            Aqui você conta com um espaço climatizado, amplo e aconchegante preparado especialmente para você. Diversos serviços de estética e beleza em um lugar só. Nossas profissionais preparadas para te proporcionar o melhor atendimento, e aquele café especial que nossas clientes merecem. Aqui você é especial para nós!
+          </p>
+        </div>
+
+        <div class="flex gap-3 animate-fade-in-right" data-anime="400">
+          <div class="p-8 bg-purple-400 rounded-xl w-96 bg-[url('/img/clínica.jpg')] bg-cover bg-center mb-5 "></div>
+          <div class="p-8 bg-purple-400 rounded-xl w-96 bg-[url('/img/recep.jpg')] bg-cover bg-center mb-5"></div>
+      
+          
+        </div>
+
+      </div>
+
+      <div class="xl:grid grid-cols-2 xl:space-x-4 md:grid md:grid-cols-2 md:space-x-8 animate-fade-in-right" data-anime="400">
+      
+        <div class="flex gap-3 animate-fade-in-left" data-anime="400">
+          <div class="p-8 bg-purple-400 rounded-xl w-96 bg-[url('/img/alex.jpg')] bg-cover bg-center mb-5 "></div>
+          <div class="p-8 bg-purple-400 rounded-xl w-96 bg-[url('/img/banheiro.jpg')]  bg-cover bg-center mb-5"></div>
+      
+          
+        </div>
+
+        <div class="p-8  bg-fuchsia-100 rounded-xl w-[40rem] h-60 mb-5 xl:w-[40rem]  md:w-[30rem] ">
+          <h1 class="text-roxo-500 text-3xl mb-1 font-glacial">Salas Privativas</h1>
+          <p class="mt-3 font-glacial text-xs">
+            Nossas salas são preparadas  para que você viva um momento relaxante e especial. Proporcionamos mais que um atendimento, mas também uma experiência completa. Aqui você realiza seu atendimento com iluminação personalizada, alexa para escutar a música de sua preferência, e além disso, cada sala conta com um banheiro privativo. 
+          </p>
+        </div>
+
+      </div>
+    </section>
+    
+
+    <section class="bg-gradient-to-br from-[#bea039] to-[#6a367a] h-72 content-center animate-fade-in-left" data-anime="200"> 
+      <div class="flex flex-col text-center  content-center gap-10 *:text-white *:font-sans md:flex-row md:justify-center md:gap-16 ">
+        <h1 class="">+ de 1000 atendimentos realizados</h1>
+        <h1 class="">Clínica com melhor estrutura da região</h1>
+        <h1 class="">Mais de 500 clientes satisfeitos</h1>
+      </div>
+    
+    </section>
+
+    <section class=" p-9 w-full gap-20 bg-[rgba(106,54,122,1)] flex flex-col  items-center content-center ">
+      <div class="  flex flex-col  text-center items-center m-auto">
+        <h1 class="text-white text-2xl font-sans lg:text-4xl">Nossos tratamentos</h1>
+        <h2 class="text-white text-xs font-glacial mb-5 lg:text-xl ">
+          Focados em transformar sua Beleza
+        </h2>
+
+        <div class="w-64  align-middle self-center m-auto text-center cursor-pointer lg:hidden">
+          <button id="menuButton" class="w-full px-4 py-2 bg-blue-600  rounded-lg  text-white font-glacial ">Tratamentos Corporais</button>
+          <ul id="menu" class="mt-2 hidden bg-white shadow-md rounded-lg overflow-hidden *:font-glacial">
+              <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Tratamentos Faciais</li>
+              <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Perda de Gordura</li>
+              <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Harmonização Facial</li>
+          </ul>
+      </div>
+      </div>
+
+  
+
+      <div>
+        <!-- menu tratamentos -->
+
+      
+
+        <div class="hidden lg:block  lg:-mt-10 " id="harmonizaçãoFacial">
+          <ul class="flex *:font-glacial *:cursor-pointer lg:justify-center lg:gap-4 lg:mb-10">
+            <li class=" text-gray-50  px-4 py-2 rounded-xl hover:border-[1px] hover:rounded-2xl hover:ease-in-out duration-100 hover:scale-110 font ">Harmonização Facial</li>
+            <li class=" text-gray-50  px-4 py-2 rounded-xl hover:border-[1px] hover:rounded-2xl hover:ease-in-out duration-100  hover:scale-110 " >Perda de Gordura</li>
+            <li class=" text-gray-50  px-4 py-2 rounded-xl hover:border-[1px] hover:rounded-2xl hover:ease-in-out duration-100  hover:scale-110 " >Tratamentos Faciais</li>
+            <li class=" text-gray-50  px-4 py-2 rounded-xl hover:border-[1px] hover:rounded-2xl hover:ease-in-out duration-100  hover:scale-110 " >Tratamentos Corporais</li>
+          </ul>
+        </div>
+
+        <div class="w-full  px-6  hidden xl:hidden  ">
+          <div class="swiper mySwiper">
+              <div class="swiper-wrapper sm:overflow-hidden">
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide w-1 flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-10">
+                    <img class="h-48 w-full" src="/img/botox.jpg" alt="botox">
+                      <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Botox Facial</h3>
+                      <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+                  </div>
+  
+                  <!-- Slide 2 -->
+                  <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+                    <img class="h-48 w-full" src="/img/labial.jpg" alt="preenchimentoLabial">
+                    <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Preenchimento Labial</h3>
+                    <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+                  </div>
+  
+              
+  
+                  <!-- Slide 4 -->
+                  <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-64">
+                    <img class="h-48 w-full" src="/img/preenchimento.jpg" alt="botox">
+                    <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Preenchimento Facial</h3>
+                    <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+                  </div>
+  
+                  <!-- Slide 5 -->
+                  <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-64">
+                    <img class="h-48 w-full" src="/img/glow.jpeg" alt="botox">
+                    <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Hidra Glow</h3>
+                    <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+                  </div>
+              </div>
+  
+              <!-- Paginação -->
+              <div class="swiper-pagination"></div>
+          </div>
+      </div>
+
+      <div class="w-full max-w-5xl px-6 hidden xl:hidden">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide w-1 flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+                  <img class="h-48 w-full" src="/img/placas.jpg" alt="botox">
+                  <h3 class="mt-3 -mb-5 text-lg font-semibold text-center">Criomodelagem</h3>
+                  <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+                  <img class="h-48 w-full" src="/img/lipoenz.jpg" alt="botox">
+                  <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Lipo Enzimática</h3>
+                      <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+                </div>
+
+            
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+                  <img class="h-48 w-full" src="/img/cavitação.webp" alt="botox">
+                  <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Lipo Sem Cortes</h3>
+                      <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+                  <img class="h-48 w-full" src="/img/hidro.jpg" alt="botox">
+                  <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Hidrolipo</h3>
+                  <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+                </div>
+            </div>
+
+            <!-- Paginação -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="w-full max-w-5xl px-6 hidden xl:hidden">
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="swiper-slide w-1 flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52 ">
+                <img class="h-48 w-full" src="/img/radiofre.jpg" alt="botox">
+                <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Radiofrequência Facial</h3>
+                <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+                <img class="h-48 w-full" src="/img/peeling.jpg" alt="botox">
+                <h3 class="mt-3  -mb-5 text-lg font-semibold text-center">Peeling de Diamante</h3>
+                <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+              </div>
+
+          
+
+              <!-- Slide 4 -->
+              <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+                <img class="h-48 w-full" src="/img/limpeza.jpg" alt="botox">
+                <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Limpeza de pele </h3>
+                <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+              </div>
+
+              <!-- Slide 5 -->
+              <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+                <img class="h-48 w-full" src="/img/lavieen.jpeg" alt="botox">
+                <h3 class="mt-3  -mb-5 text-lg font-semibold text-center">Laser Lavieen</h3>
+                <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+              </div>
+
+
+              <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+                <img class="h-48 w-full" src="/img/ultraformer.png" alt="botox">
+                <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Ultraformer</h3>
+                <p class="text-xs p-6 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+              </div>
+
+
+
+              <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+                <img class="h-48 w-full" src="/img/microagulhamento-no-rosto-1300x731.jpg" alt="botox">
+                <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Microagulhamento</h3>
+                      <p class="text-xs p-6 -mt-2 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+              </div>
+
+
+
+              <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-64">
+                <img class="h-48 w-full" src="/img/bioestimulador.jpg" alt="botox">
+                <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Bioestimulador de Colágeno</h3>
+                <p class="text-xs p-6 -mt-2 font-glacial"> Procedimento de prevenção e Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque unde deserunt saepe doloribus facilis perferendis repudiandae exercitationem ducimus, amet facere id ipsa veritatis placeat reiciendis quam temporibus illo fuga.</p>
+              </div>
+          </div>
+
+          <!-- Paginação -->
+          <div class="swiper-pagination"></div>
+      </div>
+  </div>
+
+  <div class=" px-4 flex-wrap w-[25rem] sm:px-6 flex justify-center overflow-hidden  lg:w-[75rem]">
+    <div class="swiper mySwiper  md:w-full w-full">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide w-1 flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52 ">
+              <img class="h-48 w-full" src="/img/russa.jpg" alt="correnteRussa">
+              <h3 class="mt-3 -mb-5 text-lg font-semibold text-center">Turbina Glúteo</h3>
+              <p class="text-xs p-6 font-glacial"> Nossa combinação de procedimentos que irão turbinar os seus glúteos</p>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+              <img class="h-48 w-full" src="/img/model.jpg" alt="botox">
+              <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Massagem Modeladora</h3>
+              <p class="text-xs p-6 font-glacial"> Redefina suas curvas e potencialize a perda de medidas</p>
+            </div>
+
+        
+
+            <!-- Slide 4 -->
+            <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+              <img class="h-48 w-full" src="/img/rgluteos.jpg" alt="botox">
+              <h3 class="mt-3 -mb-5 text-lg font-semibold text-center">Radiofrequência Corporal</h3>
+              <p class="text-xs p-6 font-glacial"> Diminua a flacidez com estímulo de colágeno, resultados na primeira sessão</p>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-52">
+              <img class="h-48 w-full" src="/img/dren.jpg" alt="botox">
+              <h3 class="mt-3 -mb-5  text-lg font-semibold text-center">Drenagem Linfática</h3>
+              <p class="text-xs p-6 font-glacial"> Retenção de líquidos nunca mais, balblala</p>
+            </div>
+            <div class="swiper-slide flex items-center justify-center bg-gray-100 rounded-xl shadow-md h-64">
+              <img class="h-48 w-full" src="/img/ultraformer.png" alt="botox">
+              <h3 class="mt-3 -mb-5 text-lg font-semibold text-center">Ultraformer</h3>
+              <p class="text-xs p-6 font-glacial"> Perda de gordura com ultrassom potente</p>
+            </div>
+          
+        </div>
+
+        <!-- Paginação -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+  
+    </section>
+
+    
+
+
+
+    <div class="bg-[url('/img/banner2.png')] mb-20 p-10 lg:grid place-items-center lg:grid-cols-2 lg:m-auto lg:items-center lg:h-screen lg:p-10 ">
+      <!-- Seção de Avaliações -->
+      <div class="lg:grid lg:items-center xl:mb-10 md:mb-20 ">
+          <div class="flex flex-col p-8 items-center ">
+              <p class="text-white font-sans font-semibold lg:text-xl" >Somos 5 estrelas no Google</p>
+              <div class="flex justify-center text-yellow-400 text-3xl space-x-1 mt-1">★★★★★</div>
+          </div>
+          <div class="relative w-[25rem] m-auto xl:w-[40rem]">
+            <button id="prevBtn" class="absolute left-0 top-1/2 bg-gray-100 transform -translate-y-1/2  rounded-full p-2 hover:bg-gray-100">❮</button>
+            <div class="overflow-hidden">
+                <div id="slider" class="flex gap-5 transition-transform duration-300  ">
+                    <div class="flex-none w-80 p-4 rounded-lg  bg-white">
+                      <div class="flex gap-2">
+                      <img src="/img/vilma.png" alt="" class="w-8 h-8">
+                        <h3 class="font-robot text-sm mt-1">Vilma Medina</h3>
+                      </div>
+                        <span class="text-xs font-robot -mb-1">02/02/2025</span><br>
+                        <span class="text-yellow-500 mb-3">★★★★★</span>
+                      
+                        <p class="font-robot text-xs">Lugar aconchegante, cheiroso, com pessoas muito atenciosas. Quem vive no estresse da correria diária,  deve se dar o direito de passar algumas horas com a Donna. Com certeza vai se apaixonar!!</p>
+            
+                    </div>
+                    <div class="flex-none w-80 p-4 rounded-lg  bg-white">
+                      <div class="flex gap-2">
+                      <img src="/img/sibele.png" alt="" class="w-8 h-7">
+                        <h3 class="font-robot text-sm mt-1">Sibele Drecha Nunes</h3>
+                      </div>
+                        <span class="text-xs font-robot -mb-1">um mês atrás</span><br>
+                        <span class="text-yellow-500 mb-3">★★★★★</span>
+                      
+                        <p class="font-robot text-xs">Maravilhosas!!!!!
+                          Ambiente tranquilo, cheiroso, alegre.
+                          Recepção com um cafezinho divino!!
+                          Profissionais super atenciosas e gentis! Estou adorando o processo dos tratamentos também!
+                          Nota 100000 !!!</p>
+            
+                    </div>
+                    <div class="flex-none w-80 p-4 rounded-lg  bg-white">
+                      <div class="flex gap-2">
+                      <img src="/img/camila.png" alt="" class="w-8 h-7">
+                        <h3 class="font-robot text-sm mt-1">Camila Nobre</h3>
+                      </div>
+                        <span class="text-[0.8em] font-robot -mb-1">um mês atrás</span><br>
+                        <span class="text-yellow-500 mb-3">★★★★★</span>
+                      
+                        <p class="font-robot text-sm">Lugar maravilhoso, sem falar nas ótimas profissionais com atendimento excelente.</p>
+            
+                    </div>
+                    <div class="flex-none w-80 p-4 rounded-lg  bg-white">
+                      <div class="flex gap-2">
+                      <img src="/img/lidiana.png" alt="" class="w-8 h-7">
+                        <h3 class="font-robot text-sm mt-1">Lidiana Dantas</h3>
+                      </div>
+                        <span class="text-[0.8em] font-robot -mb-1">2 semanas atrás</span><br>
+                        <span class="text-yellow-500 mb-3">★★★★★</span>
+                      
+                        <p class="font-robot text-sm">Procedimento de peeling diamante/limpeza de pele, super satisfeita, meu rosto ficou perfeito e lisinho, além de ser super relaxante. Recomendo!</p>
+            
+                    </div>
+                    <div class="flex-none w-80 p-4 rounded-lg  bg-white">
+                      <div class="flex gap-2">
+                      <img src="/img/pri.png" alt="" class="w-8 h-7">
+                        <h3 class="font-robot text-sm mt-1">pri camargo</h3>
+                      </div>
+                        <span class="text-[0.8em] font-robot -mb-1">9 meses atrás</span><br>
+                        <span class="text-yellow-500 mb-3">★★★★★</span>
+                      
+                        <p class="font-robot text-sm">Excelente atendimento! Lugar aconchegante e procedimentos de qualidade. Indico</p>
+            
+                    </div>
+
+                    <div class="flex-none w-80 p-4 rounded-lg  bg-white">
+                      <div class="flex gap-2">
+                      <img src="/img/taty.png" alt="" class="w-8 h-7">
+                        <h3 class="font-robot text-sm mt-1">Taty Berwig</h3>
+                      </div>
+                        <span class="text-[0.8em] font-robot -mb-1">3 meses atrás</span><br>
+                        <span class="text-yellow-500 mb-3">★★★★★</span>
+                      
+                        <p class="font-robot text-sm">Atendimento maravilhoso ,,,, ótimos resultados 😍😍😍😍😍</p>
+            
+                    </div>
+                </div>
+            </div>
+            <button id="nextBtn" class="absolute right-1 top-1/2 transform -translate-y-1/2 bg-gray-300 rounded-full p-2 hover:bg-gray-400">❯ <button>
+        </div>
+        
+      </div>
+    
+      <!-- Formulário -->
+      <div class=" bg-white p-6 rounded-lg shadow-lg  w-96 lg:w-[30rem] xl:mb-10 md:mb-20">
+          <h2 class="font-semibold font-sans text-[1rem] text-gray-700 mb-4">Fale conosco ! </h2>
+    
+          <form>
+              <!-- Nome -->
+              <div class="mb-4">
+                  <label class="block text-gray-700 font-medium mb-1 text-sm font-glacial">Nome</label>
+                  <input type="text" class="text-sm  font-glacial w-full border border-gray-300 rounded-lg p-2" placeholder="Digite seu nome">
+              </div>
+    
+              <!-- Tratamentos -->
+              <div class="mb-4 *:text-sm ">
+                  <label class="block text-gray-700 font-medium mb-1 font-glacial">Tenho interesse em tratamentos:</label>
+                  <div class="flex flex-wrap gap-2">
+                      <label class="flex items-center font-glacial">
+                          <input type="checkbox" class="mr-2 font-glacial" value="Facial"> Corporais
+                      </label>
+                      <label class="flex items-center font-glacial">
+                          <input type="checkbox" class="mr-2" value="Corporal"> Harmonização
+                      </label>
+                      <label class="flex items-center font-glacial">
+                          <input type="checkbox" class="mr-2" value="Massagem"> Faciais
+                      </label>
+                      <label class="flex items-center font-glacial">
+                          <input type="checkbox" class="mr-2" value="Depilação"> Depilação
+                      </label>
+                  </div>
+              </div>
+    
+              <!-- Telefone -->
+              <div class="mb-4 *:text-sm">
+                  <label class="block text-gray-700 font-medium mb-1 font-glacial ">Telefone</label>
+                  <input type="tel" class=" font-glacial w-full border border-gray-300 rounded-lg p-2" placeholder="(00) 00000-0000">
+              </div>
+    
+              <!-- Email -->
+              <div class="mb-4 font-glacial *:text-sm">
+                  <label class="block text-gray-700 font-medium mb-1 font-glacial">E-mail</label>
+                  <input type="email" class="w-full border border-gray-300 rounded-lg p-2" placeholder="seuemail@email.com">
+              </div>
+    
+              <!-- Botão de Envio -->
+              <button type="submit" class="w-full bg-yellow-400 text-white py-2 rounded-lg text-[1rem] font-semibold hover:bg-yellow-500 font-glacial">
+                  Agendar Agora
+              </button>
+          </form>
+      </div>
+    </div>
+
+
+   
+
+<!-- section mapa -->
+
+<div class="flex items-center justify-center gap-28 p-6 bg-gray-100 from-[#bea039] to-[#6a367a] max-md:flex 
+max-md:flex-col max-md:gap-5  ">
+<div>
+  <img src="/img/LOGO.SVG.svg" alt="logotipo" class="w-60">
+</div>
+
+  <!-- Card de horário -->
+  <div class="bg-white shadow-lg p-6 rounded-lg w-70 xl:w-90">
+      
+      <p class="text-brown-600 mt-2 font-glacial">Endereço: </p>
+      <p class="text-xs font-semibold text-brown-700 mt-1">R. Artur Emílio Ozzio, 135 - Vila City, Cachoeirinha - RS, 94935-750</p>
+      <p class="text-brown-600 mt-2 font-glacial">Telefone:</p>
+      <p class="text-xs font-semibold text-brown-700 mt-1">(51) 99586-3006 </p> 
+      <button class="font-glacial text-xs border-l-green-600 bg-green"> Chamar no whatsapp agora</button>
+
+      <p class="text-brown-600 mt-2 font-glacial">Email:</p>
+      <p class="text-xs font-semibold text-brown-700 mt-1">estéticadonna@gmail.com</p>
+  </div>
+
+  <!-- Mapa -->
+
+
+  <iframe  class="rounded-lg shadow-lg h-56" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221252.76069129404!2d-51.3550581991547!3d-29.948538929170468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951971e368277937%3A0xaaed97f897ebffc!2sDonna%20Est%C3%A9tica%20e%20Bem-estar%20%7C%20Ultraformer%2C%20Botox%2C%20Lavieen%2C%20Massagem%2C%20Limpeza%20de%20pele%2C%20Enzimas%2C%20Criolip%C3%B3lise%2C%20Sal%C3%A3o%20de%20beleza!5e0!3m2!1spt-BR!2sbr!4v1740335318436!5m2!1spt-BR!2sbr" width="300" height="480"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!-- footer -->
+
+<footer class=bg-[rgba(106,54,122,1)]>
+
+
+
+</footer>
+
+
+
+
+<script src="./plugins/simple-anime.js"></script>;
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/script.js"></script>
+  
+  </body>
+</html>

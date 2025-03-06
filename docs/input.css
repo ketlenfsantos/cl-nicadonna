@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* formato criado para padronizar alguma estilização */
+
+@layer components {
+}
+
+@font-face {
+  font-family: 'Roca';
+  src: url('./fonts/Roca.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: url('./fonts/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Altera a cor das bolinhas da paginação */
+.swiper-pagination-bullet {
+  background-color: rgba(156, 163, 175, 0.7) !important; /* bg-gray-400 */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #bb56f0 !important; /* bg-yellow-400 */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply w-2 h-2  text-gray-600 bg-none rounded-full flex items-center justify-center content-center shadow-md gap-x-10;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px !important; /* Reduz o tamanho do ícone padrão */
+  color: #4b5563; /* Cor cinza escuro */
+}

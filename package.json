@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "swiper": "^11.2.4"
+  }, "scripts": {
+    "build:css": "tailwindcss build src/input.css -o dist/output.css",
+    "watch:css": "tailwindcss build src/input.css -o dist/output.css --watch"
+  }
+
+  
+}
+
+
