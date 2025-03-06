@@ -1,4 +1,4 @@
-new SimpleAnime();
+
 
 
 
@@ -69,4 +69,5 @@ document.getElementById('menuButton').addEventListener('click', function() {
     });
 
 
+new SimpleAnime();
     
