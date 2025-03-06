@@ -969,28 +969,28 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[url\(\'\/img\/alex\.jpg\'\)\] {
-  background-image: url('/img/alex.jpg');
+.bg-\[url\(\'\.\/img\/alex\.jpg\'\)\] {
+  background-image: url('./img/alex.jpg');
 }
 
-.bg-\[url\(\'\/img\/banheiro\.jpg\'\)\] {
-  background-image: url('/img/banheiro.jpg');
+.bg-\[url\(\'\.\/img\/banheiro\.jpg\'\)\] {
+  background-image: url('./img/banheiro.jpg');
 }
 
-.bg-\[url\(\'\/img\/banner2\.png\'\)\] {
-  background-image: url('/img/banner2.png');
+.bg-\[url\(\'\.\/img\/banner2\.png\'\)\] {
+  background-image: url('./img/banner2.png');
 }
 
-.bg-\[url\(\'\/img\/cl\EDnica\.jpg\'\)\] {
-  background-image: url('/img/clínica.jpg');
+.bg-\[url\(\'\.\/img\/cl\EDnica\.jpg\'\)\] {
+  background-image: url('./img/clínica.jpg');
 }
 
-.bg-\[url\(\'\/img\/mobile\.png\'\)\] {
-  background-image: url('/img/mobile.png');
+.bg-\[url\(\'\.\/img\/mobile\.png\'\)\] {
+  background-image: url('./img/mobile.png');
 }
 
-.bg-\[url\(\'\/img\/recep\.jpg\'\)\] {
-  background-image: url('/img/recep.jpg');
+.bg-\[url\(\'\.\/img\/recep\.jpg\'\)\] {
+  background-image: url('./img/recep.jpg');
 }
 
 .bg-gradient-to-br {
@@ -1444,8 +1444,8 @@ video {
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:bg-\[url\(\'\/img\/banner\.png\'\)\] {
-    background-image: url('/img/banner.png');
+  .md\:bg-\[url\(\'\.\/img\/banner\.png\'\)\] {
+    background-image: url('./img/banner.png');
   }
 
   .md\:bg-cover {
@@ -1581,8 +1581,8 @@ video {
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .xl\:bg-\[url\(\'\/img\/banner\.png\'\)\] {
-    background-image: url('/img/banner.png');
+  .xl\:bg-\[url\(\'\.\/img\/banner\.png\'\)\] {
+    background-image: url('./img/banner.png');
   }
 
   .xl\:bg-cover {
